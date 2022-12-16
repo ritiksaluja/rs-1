@@ -1,0 +1,329 @@
+
+#navbar{
+    display: flex;
+    margin-top: 10px;
+    
+
+
+}
+.logo{
+    height: 25px;
+    width: 100px;
+    margin: 8px 400px 0px 0px ;
+    
+}
+.container{
+display: flex;
+}
+.ul1{
+    display: flex;
+   
+   
+}
+#navbar li{
+    
+    list-style: none;
+    margin:0px 60px 0px 0px  ;
+  
+}
+#navbar li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: -2px 0px 0px 0px ;
+    font-size: 15px;
+    font-weight: bold;
+}
+#container2{
+    display: flex;
+}
+.subcontainer1{
+margin: 125px 75px 0px 0px ;
+}
+.heading1{
+font-weight: bold;
+margin: 0px 55px 0px 0px ;
+text-align: center;
+font-size: 4rem;
+font-style: normal;
+    font-size: 58px;
+}
+.para1{
+text-align: justify;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.btn2{
+    font-style: normal;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+#section1{
+  
+}
+#section1 h1{
+   text-align: center;
+   margin: 60px 0px 0px 10px ;
+   font-size:25px ;
+}
+.ul2{
+    display: flex;
+    text-decoration: none;
+}
+.ul2 li{
+    list-style: none;
+    margin: 20px 30px 0px 10px;
+    padding: 5px 0px 5px 0px ;
+}
+.ul2 li a{
+    text-decoration: none;
+    
+}
+.imgsection1{
+    width: 205px;
+    height: 80px;
+}
+#section2 h1{
+    text-align: center;
+    font-size: 58px;
+    line-height: 72px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.flexbox1{
+    display: flex;
+    
+}
+.imgsection2{
+    width: 128px;
+    height: 128px;
+   margin: 15px 61px -23px 61px;
+   
+  
+}
+.Amar{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 450px;
+    margin: 25px 25px 25px 150px ;
+}
+.Amar h5{
+    text-align: center;
+    font-size: 20px;
+}
+.Amit h5{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Amit{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 450px;
+    margin: 25px 25px 25px 25px ;
+
+}
+.Amol{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 450px;
+    margin: 25px 150px 25px 25px ;
+}
+.Amol h5{
+    text-align: center;
+    font-size: 20px;
+}
+.designation{
+    font-size: 15px;
+    font-style: normal;
+   text-align: center;
+   margin: -20px 10px 30px 10px;
+   color: #747486;
+
+}
+.details{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ul3  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   grid-gap: 5px; 
+   margin: 0px 5px 0px -30px ;
+   
+    
+}
+.ul3 li{
+ display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+    color: white;
+   list-style: none;
+   border: 1px solid #747486;
+   background-color:gray;
+   border-radius: 18px;
+}
+#section3{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://www.codebase.com/wp-content/uploads/2022/04/our-commitment-bg-1.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+#section3 h1{
+    margin-top: 0px;
+    padding-top: 100px;
+    font-size: 60px;
+   text-align: center;
+}
+.flexbox2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: 10px 10px ;
+    justify-content: space-around;
+   
+}
+.subflex{
+    margin-top: 50px;
+    width: 500px;
+    height: 275px;
+    background: rgba(0,0,0,.72);
+    border-radius: 1px;
+}
+.flexbox3{
+
+    width: 500px;
+    height: 275px;
+    color: white;
+    background: rgba(0,0,0,.72);
+   border-radius: 1px;
+   text-align: center;
+   margin: auto; 
+   margin-top: 50px;  
+}
+.imagesection3{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+.section4{
+    background-color: #f1f1f1;
+    margin-top: -50px;
+}
+.section4 h1{
+   
+    text-align: center;
+    font-size: 50px;
+}
+.ul4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.ul4 li{
+    width: 350px;
+    height: 230px;
+    list-style: none;
+    margin: 20px 80px 10px 100px;
+}
+.imagesection4{
+
+    width: 60px;
+    height: 60px;
+}
+.post{
+    margin: 10px 10px 10px 10px ;
+}
+.post h4{
+   text-align: justify;
+   font-size: 25px;
+}
+.post p{
+    text-align: justify;
+    font-size: 15px;
+}
+.section5{
+    width: 100%;
+    height: 800px;
+}
+.section5 h1{
+    text-align: center;
+    font-size: 60px;
+}
+.hire{
+    display: flex;
+    justify-content: center;
+}
+.hire1 img{
+    width:600px;
+    height: 750px;
+}
+.ul5 li {
+    list-style: none;
+}
+.hire2{
+    text-align: justify;
+}
+.hire21{
+    width: 150px;
+    height: 224px;
+    margin: -44px 15px 65px 24px;
+   
+}
+.hire3{
+    display: flex;
+    justify-content: space-around;
+
+}
+.hire211{
+  
+    width: 400px;
+    height: 224px;
+}
+.hire211 h4{
+    font-size: 32px;
+
+}
+.hire211 p{
+    font-size: 19px;
+}
+.number{
+    font-size: 90px;
+    border: 15px solid blue;
+    border-radius: 100%;
+    color: blue;
+    text-align: center;
+}
+
+
+
+
