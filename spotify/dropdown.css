@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    background-color: black;
+    color: white;
+}
+.wrap ul {
+    display: flex;
+    list-style: none;
+}
+.wrap ul li {
+    padding: 10px 50px;
+    
+}
+.drop{
+    display: none;
+}
+.wrap ul li:hover{
+    color: white;
+    
+}
+.wrap ul li:hover .drop {
+    display: block;
+    position: absolute;
+    background-color: black;
+   
+}
+.wrap ul li:hover .drop ul {
+    display: block;
+}
