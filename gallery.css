@@ -43,7 +43,7 @@ z-index: 1;
 }
 .social span:hover{
    color: blue;
-   position: fixed;
+   position: absolute;
     transform: rotate(360deg);
     transition: all 3s ease ;
 
