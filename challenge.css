@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ritik{
+    display: flex;
+    margin: 30px 30px;
+}
+.folder{
+    background-color: #3b5998;
+    margin: 10px 30px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.folder h1{
+    float: right;
+    margin-right: -20px;
+    margin-top: -30px;
+    padding: 30px 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+
+}
+.folder img{
+    margin: 50px -49px 15px 30px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.folder h4{
+    font-size: 18px;
+    color: white;
+}
+.folder p{
+    color: white;
+    padding: 10px 40px;
+}
+.folder ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 20px 0px;
+    color: gold;
+}
+.folder::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transition: top 0.5s;
+
+}
+.folder:hover::before{
+    top: 0%;
+}
+

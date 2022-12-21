@@ -19,13 +19,13 @@
     display: none;
 }
 .wrap ul li:hover{
-    color: white;
+    color: red;
     
 }
 .wrap ul li:hover .drop {
     display: block;
     position: absolute;
-    background-color: black;
+    background-color: blueviolet;
    
 }
 .wrap ul li:hover .drop ul {
